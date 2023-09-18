@@ -20,5 +20,8 @@ public class Main {
 
         System.out.println(pessoaTurista.getNome());
 
+        String cpf = JOptionPane.showInputDialog("Entre com o cpf");
+        pessoaTurista.setCpf(cpf);
+        System.out.println(pessoaTurista.getCpf());
     }
 }
